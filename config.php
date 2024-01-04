@@ -20,6 +20,6 @@ function config($key = '')
         'pretty_uri' => true,
         'version' => 'v2.0',
     ];
-
+    // some commnet
     return isset($config[$key]) ? $config[$key] : null;
 }
